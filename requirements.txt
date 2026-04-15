@@ -9,4 +9,5 @@ spacy==3.8.11
 torch==2.9.1
 tqdm==4.67.1
 transformers==4.57.3
-datasets
+ipykernel
+missingno

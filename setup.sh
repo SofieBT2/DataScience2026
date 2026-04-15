@@ -7,8 +7,7 @@ python -m venv env
 source ./env/bin/activate
 
 # install requirements
-pip install --upgrade pip
-pip install datasets --upgrade
+pip install --upgrade pip fsspec huggingface_hub datasets
 pip uninstall pandas -y
 pip install --no-cache-dir pandas==2.2.0
 pip install -r requirements.txt
