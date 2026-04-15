@@ -11,3 +11,7 @@ tqdm==4.67.1
 transformers==4.57.3
 ipykernel
 missingno
+huggingface_hub>=0.16.0
+datasets>=2.14.0
+fsspec[http]>=2023.1.0,<=2026.2.0
+mord

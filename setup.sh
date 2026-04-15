@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e 
 
 # create virtual env
 python -m venv env
@@ -7,11 +8,11 @@ python -m venv env
 source ./env/bin/activate
 
 # install requirements
-pip install --upgrade pip fsspec huggingface_hub datasets
-pip uninstall pandas -y
-pip install --no-cache-dir pandas==2.2.0
+pip install --upgrade pip
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
+
+pip install pandas==2.2.0
 
 python -c "import pandas; print(pandas.__version__)"
 
