@@ -12,7 +12,7 @@ transformers==4.57.3
 ipykernel
 missingno
 huggingface_hub>=0.34.0,<1.0
-datasets==3.6.0
+datasets>=4.0.0
 pyarrow>=15.0.0
 fsspec[http]>=2023.1.0,<2026.0.0
 multiprocess>=0.70.16
