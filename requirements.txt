@@ -15,3 +15,7 @@ huggingface_hub>=0.16.0
 datasets>=2.14.0
 fsspec[http]>=2023.1.0,<=2026.2.0
 mord
+lightgbm
+xgboost
+optuna
+optuna-integration
