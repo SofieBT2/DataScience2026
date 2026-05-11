@@ -21,3 +21,4 @@ lightgbm
 xgboost
 optuna
 optuna-integration
+shap
