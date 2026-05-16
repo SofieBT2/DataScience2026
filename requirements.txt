@@ -22,3 +22,4 @@ xgboost
 optuna
 optuna-integration
 shap
+langdetect
