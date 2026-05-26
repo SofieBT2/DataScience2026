@@ -1,3 +1,4 @@
 # type here what we want to ignore when pushing to git
 data/
 token.txt
+env/
